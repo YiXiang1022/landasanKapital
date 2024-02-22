@@ -104,7 +104,34 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var links = document.querySelectorAll('ul li a');
 
+        links.forEach(function (link) {
+            link.addEventListener('click', function () {
+                links.forEach(function (innerLink) {
+                    innerLink.classList.remove('active');
+                });
+
+                this.classList.add('active');
+            });
+        });
+    });
+    
+function toggleText(element) {
+        var shortText = element.querySelector('.short-text');
+        var fullText = element.querySelector('.full-text');
+
+        if (shortText.style.display === 'none') {
+            shortText.style.display = 'inline';
+            fullText.style.display = 'none';
+        } else {
+            shortText.style.display = 'none';
+            fullText.style.display = 'inline';
+        }
+    }
+</script>
 </body>
 
 </html>

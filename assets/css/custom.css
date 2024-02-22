@@ -1,0 +1,24 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 22, 2024, 11:34:10 AM
+    Author     : yixia
+*/
+
+.read-more-link {
+        color: red !important;
+        cursor: pointer;
+    }
+
+    .full-text {
+        color: black;
+    }
+
+span.short-text,span.full-text {
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    color: rgb(54, 77, 89) !important;
+    text-align: justify !important;
+}
