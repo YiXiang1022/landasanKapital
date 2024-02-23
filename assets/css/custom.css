@@ -22,3 +22,18 @@ span.short-text,span.full-text {
     color: rgb(54, 77, 89) !important;
     text-align: justify !important;
 }
+
+/*index - Get Started Section */
+h1#clickTitle {
+    font-size: 50px !important;
+    color: black !important;
+}
+/*careers - application section */
+a#applicationFormBtn {
+    background: var(--color-primary);
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 5px;
+}
